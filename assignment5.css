@@ -1,0 +1,68 @@
+body {
+    background-image: url(a5bg.jpg);
+}  
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    border: 1px solid black;
+    width: 150px;
+    margin: 10px;
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
+
+h1 {
+    background-color:white;
+    font-family: Helvetica;
+    font-weight: normal;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+
+main {
+    background-color:white; 
+    padding: 20px;
+    margin: 40px;
+}
+
+footer {
+    border: 2px solid white;
+    background-color: darkblue;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+  }  
+
+  a {
+    font-weight: bold;
+  } 
