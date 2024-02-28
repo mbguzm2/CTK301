@@ -1,7 +1,22 @@
+body { background-color: #999; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
 header {
+  grid-column: span 12;
+  background-color: red;
 }
 
 nav {
+  grid-column: span 3;
 }
 
 nav ul {
@@ -24,10 +39,20 @@ nav li a {
 }
 
 main {
+grid-column: span 6;
+}
+
+main img {
+  width: 200px;
+  float: left;
+  padding-right: 24px;
 }
 
 aside {
+  grid-column: span 3;
 }
 
 footer {
+  background-color: red;
+  grid-column: span 12;
 }
